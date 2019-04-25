@@ -1,0 +1,14 @@
+{
+    "name": "wasinger/oeffnungszeitenparser",
+    "description": "Parser for German opening hour strings",
+    "type": "library",
+    "license": "MIT",
+    "autoload":{
+        "psr-4":{
+            "Wasinger\\Oeffnungszeitenparser\\":"src/"
+        }
+    },
+    "require": {
+        "ext-mbstring": "*"
+    }
+}
